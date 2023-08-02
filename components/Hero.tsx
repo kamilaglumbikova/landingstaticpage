@@ -9,7 +9,7 @@ const Hero = () => {
         </span>
         <span className="text-sm lg:text-lg mt-4 block">A service agency with customer satisfaction</span>
         <div className="mt-7 relative">
-          <button type="button" className="font-bold rounded-[5px] h-[60px] flex items-center justify-center px-[30px] duration-700 transition-all hover:bg-black  lg:absolute text-white bg-darkGreen top-0 left-0 right-0 mx-auto">Get Started</button>
+          <button type="button" className="font-bold rounded-[5px] h-[60px] flex items-center justify-center px-[30px] duration-700 transition-all hover:bg-black  lg:absolute text-white bg-darkGreen top-0 left-0 right-0 mx-auto lg:w-[200px]">Get Started</button>
           <Image 
             src="/hero.png"
             width={1083}
